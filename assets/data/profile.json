@@ -30,7 +30,11 @@
       {
         "name": "VsCode",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/vscode.png"
-      }
+      },
+      {
+        "name": "Intellij",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/intellij.png"
+      } 
     ],
     "softSkills": [
       "Facilidade com Tarefas Praticas",
