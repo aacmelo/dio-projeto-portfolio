@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assets/img/icons/pontos.svg');
+    background-image: url('../img/icons/pontos.svg');
 }
 .header .title{
     font-family: 'Neue Machina';
@@ -50,16 +50,16 @@
     margin-right: .5rem;
 }
 .informacoes .cargo::before{
-    background-image: url('assets/img/icons/cargo.svg');
+    background-image: url('../img/icons/cargo.svg');
 }
 .informacoes .endereco::before{
-    background-image: url('assets/img/icons/endereco.svg');
+    background-image: url('../img/icons/endereco.svg');
 }
 .informacoes .telefone::before{
-    background-image: url('assets/img/icons/telefone.svg');
+    background-image: url('../img/icons/telefone.svg');
 }
 .informacoes .email::before{
-    background-image: url('assets/img/icons/email.svg');
+    background-image: url('../img/icons/email.svg');
 }
 
 @media(min-width: 768px){
