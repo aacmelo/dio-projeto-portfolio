@@ -28,8 +28,14 @@ function updateSoftSkills(profileData){
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(``)
 }
 
+function updateLanguages(profileData){
+    const languages = document.getElementById('profile.languages')
+    languages.innerHTML = profileData.languages.map(languages => `<li>${languages}</li>`).join(``)
+}
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
+    updateLanguages(profileData)
 })()
